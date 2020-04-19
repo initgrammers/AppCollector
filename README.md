@@ -5,7 +5,9 @@ Para acceder a esta aplicación las cooperativas se registrarán en Transporte P
 El controlador por medio de la aplicación podrá: Registra la ubicación al leer el código QR del pasajero cuando se embarca en el transporte. Realiza el débito a los usuarios por pasaje.
 
 
-<div align="center"> <img src="./app.jpeg" width="300px"/> </div>
+<div align="center"> 
+  <img src="./app.jpeg" width="300px"/> 
+</div>
 
 ## ¿Qué contiene el demo?
 
@@ -13,7 +15,9 @@ El demo te brinda la experiencia desde el punto de vista de un controlador de tr
 
 El siguiente código Qr pertece a un usuario de prueba, con el que puedes probrar la aplicación. Sin embargo, recomendamos que pruebes la aplicación de usuario desde [aquí](https://github.com/initgrammers/AppPassenger)
 
-![Qr de prueba](qr.jpeg)
+<div align="center"> 
+  <img src="./qr.jpeg" width="300px"/> 
+</div>
 
 ## ¿Cómo Probar?
 
