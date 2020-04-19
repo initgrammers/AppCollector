@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cobrador",
-    "slug": "cobrador",
+    "name": "AppCollector",
+    "slug": "AppCollector",
     "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",

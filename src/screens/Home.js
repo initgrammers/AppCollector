@@ -10,6 +10,14 @@ export default ({ navigation }) => {
   );
   const dispatch = useDispatch();
 
+  const handleScanner = () => {
+    if (price > 0) {
+      navigation.navigate("Scanner");
+    } else {
+      alert("Debe seleccionar el número de pasajeros");
+    }
+  };
+
   return (
     <SafeAreaView style={{ padding: 18, justifyContent: "flex-end" }}>
       <View style={{ flex: 1, justifyContent: "center" }}>
@@ -36,7 +44,7 @@ export default ({ navigation }) => {
           borderRadius: 8,
           justifyContent: "center",
         }}
-        onPress={() => navigation.navigate("Scanner")}
+        onPress={handleScanner}
       >
         <Text style={{ textAlign: "center" }}>Cobrar</Text>
       </TouchableOpacity>
