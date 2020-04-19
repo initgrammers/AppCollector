@@ -26,7 +26,7 @@ Para probar debes tener un celular Android
 ### Opción 2:
 
 - Descarga expo-client [aquí](https://play.google.com/store/apps/details?id=host.exp.exponent)
-- Escanea el código QR de la aplicación aquí
+- Escanea el código QR de la aplicación [aquí](https://expo.io/@henrymvc/AppCollector)
 
 ### Opción 3:
 
