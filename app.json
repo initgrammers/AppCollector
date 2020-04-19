@@ -18,6 +18,10 @@
     "ios": {
       "supportsTablet": true
     },
+    "android": {
+      "package": "com.initgrammers.appcollector",
+      "versionCode": 1
+    },
     "extra": {
       "firebase": {
         "apiKey": "AIzaSyDHVmEiDeYk_8FfnEfHIaI3H4X3bf7TkZg",

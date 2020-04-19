@@ -7,7 +7,7 @@ import SafeAreaView from "../components/SafeAreaView";
 import Success from "../components/Success";
 import Error from "../components/Error";
 
-export default () => {
+export default ({ navigation }) => {
   const [hasPermission, setHasPermission] = useState(null);
   const [scanned, setScanned] = useState(false);
   const [status, setStatus] = useState();
@@ -39,8 +39,15 @@ export default () => {
       .then(({ data }) => {
         console.log(data);
         const { type } = data;
-        if (type === "error") setStatus("error");
+        if (type === "error") {
+          setStatus("error");
+          alert("Qr inválido ");
+        }
         if (type === "success") setStatus("success");
+        if (type === "balanceError") {
+          setStatus("error");
+          alert("Saldo insuficiente");
+        }
         dispatch({ type: "RESET" });
       })
       .catch((error) => alert("Ocurrio un error :("));
